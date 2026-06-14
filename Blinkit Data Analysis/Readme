@@ -1,0 +1,260 @@
+📊 Blinkit Sales Analysis Dashboard
+<p align="center"> <img src="blinkit_sales_dashboard.png" alt="Blinkit Sales Dashboard" width="100%"> </p> <p align="center">
+
+
+
+
+
+
+
+
+
+
+</p>
+📌 Project Overview
+
+This project showcases an interactive Power BI dashboard developed to analyze Blinkit's retail sales performance, customer purchasing behavior, outlet characteristics, and product trends.
+
+The dashboard transforms raw sales data into actionable business insights, enabling stakeholders to monitor KPIs, identify growth opportunities, and make data-driven decisions.
+
+🎯 Business Problem
+
+Retail businesses generate large volumes of transactional data, but extracting meaningful insights can be challenging.
+
+This dashboard was designed to answer key business questions:
+
+Which outlet types generate the highest revenue?
+Which product categories contribute most to sales?
+How do outlet size and location impact performance?
+What are customer preferences regarding product fat content?
+How have outlet sales evolved over time?
+🛠️ Tech Stack
+Tool	Purpose
+Power BI	Dashboard Development
+Power Query	Data Cleaning & Transformation
+DAX	KPI & Measure Creation
+Excel / CSV	Data Source
+Data Modeling	Relationship Management
+📂 Project Architecture
+Blinkit-Sales-Analysis/
+│
+├── Dataset/
+│   └── BlinkIT Grocery Data.csv
+│
+├── Dashboard/
+│   └── Blinkit Sales Dashboard.pbix
+│
+├── Images/
+│   └── blinkit-dashboard.png
+│
+├── README.md
+│
+└── Insights/
+    └── Business_Insights.pdf
+📊 Dashboard Preview
+Main Dashboard
+<p align="center"> <img src="Images/blinkit-dashboard.png" alt="Blinkit Dashboard" width="100%"> </p>
+🚀 Key Performance Indicators (KPIs)
+KPI	Value
+💰 Total Sales	₹1.20M
+📦 Total Items Sold	9K
+📈 Average Sales	₹141
+⭐ Average Rating	4.0
+📈 Dashboard Features
+1️⃣ Sales Performance Overview
+
+Provides a high-level view of business performance through KPI cards.
+
+Metrics Monitored
+Total Revenue
+Total Products Sold
+Average Sales Value
+Customer Rating
+Business Value
+
+Allows management to quickly evaluate overall performance.
+
+2️⃣ Outlet Establishment Trend
+
+Analyzes sales performance based on outlet establishment year.
+
+Insights
+Revenue remains relatively stable across years.
+A significant dip is observed around 2011.
+Sales recover and stabilize in later years.
+Business Value
+
+Helps identify the impact of outlet age on sales performance.
+
+3️⃣ Fat Content Analysis
+
+Compares sales contribution from:
+
+Regular Fat Products
+Low Fat Products
+Insights
+Regular-fat products account for approximately 65% of sales.
+Low-fat products contribute around 35%.
+Business Value
+
+Supports inventory and product assortment decisions.
+
+4️⃣ Item Type Analysis
+
+Analyzes performance across multiple product categories.
+
+Categories Included
+Fruits & Vegetables
+Dairy
+Frozen Foods
+Snack Foods
+Household
+Soft Drinks
+Baking Goods
+Meat
+Seafood
+Insights
+
+Top-performing categories include:
+
+✅ Household Items
+✅ Dairy Products
+✅ Snack Foods
+
+Business Value
+
+Helps optimize inventory planning and product promotions.
+
+5️⃣ Outlet Size Analysis
+
+Compares revenue contribution across outlet sizes.
+
+Outlet Categories
+Small
+Medium
+High
+Insights
+Outlet Size	Contribution
+Medium	42.27%
+Small	37.01%
+High	20.72%
+Business Value
+
+Identifies the most efficient store format.
+
+6️⃣ Outlet Location Analysis
+
+Evaluates sales performance by city tier.
+
+Categories
+Tier 1
+Tier 2
+Tier 3
+Insights
+Location	Total Sales
+Tier 3	₹472K
+Tier 2	₹393K
+Tier 1	₹336K
+Business Value
+
+Supports expansion and location strategy decisions.
+
+7️⃣ Outlet Type Analysis
+
+Compares performance across outlet formats.
+
+Outlet Types
+Grocery Store
+Supermarket Type 1
+Supermarket Type 2
+Supermarket Type 3
+Metrics Compared
+Total Sales
+Average Sales
+Average Rating
+Item Visibility
+Insights
+
+🏆 Supermarket Type 1 generates the highest sales revenue.
+
+Business Value
+
+Helps prioritize investment in high-performing outlet formats.
+
+📋 Data Cleaning & Preparation
+
+The following preprocessing steps were performed:
+
+Data Quality Checks
+Removed duplicate records
+Handled missing values
+Standardized category names
+Corrected data types
+Data Transformation
+Created calculated columns
+Built data model relationships
+Designed DAX measures
+Optimized dashboard performance
+🧮 DAX Measures Used
+Total Sales
+Total Sales = SUM(BlinkIT[Sales])
+Average Sales
+Average Sales = AVERAGE(BlinkIT[Sales])
+Total Items
+Total Items = COUNT(BlinkIT[Item Identifier])
+Average Rating
+Average Rating = AVERAGE(BlinkIT[Rating])
+🔍 Business Insights
+Revenue Insights
+Total revenue crossed ₹1.2 Million.
+Supermarket Type 1 contributes the largest share of sales.
+Tier 3 outlets outperform Tier 1 and Tier 2 locations.
+Customer Insights
+Average customer rating remains consistently high at 4.0.
+Customers show a stronger preference for regular-fat products.
+Operational Insights
+Medium-sized outlets achieve the best overall performance.
+Household and Dairy categories are major revenue drivers.
+Strategic Recommendations
+Expand operations in Tier 3 markets.
+Increase inventory for high-performing product categories.
+Focus marketing efforts on medium-sized outlets.
+Improve visibility for underperforming categories.
+📈 Business Impact
+
+This dashboard enables decision-makers to:
+
+✅ Monitor sales performance in real time
+
+✅ Identify profitable outlet formats
+
+✅ Understand customer purchasing behavior
+
+✅ Optimize product inventory
+
+✅ Support data-driven expansion strategies
+
+🔮 Future Enhancements
+Sales Forecasting using Time Series Analysis
+Customer Segmentation Dashboard
+Profit & Margin Analysis
+Inventory Optimization Analytics
+Geographic Heat Map Visualizations
+Real-Time Data Integration
+💡 Skills Demonstrated
+Data Analytics
+Data Cleaning
+Data Transformation
+Exploratory Data Analysis (EDA)
+Data Modeling
+Power BI
+Interactive Dashboards
+KPI Development
+DAX Calculations
+Power Query
+Drill-Through Reports
+Business Intelligence
+Retail Analytics
+Sales Performance Analysis
+Customer Behavior Analysis
+Executive Reporting
