@@ -74,21 +74,7 @@ The dashboard transforms raw transactional data into actionable insights, helpin
 
 <img src="./blinkit_sales_dashboard.png" width="100%">
 
-### Sales KPI Analysis
 
-<img src="./Images/Sales.png" width="80%">
-
-### Average Sales Analysis
-
-<img src="./Images/Avg Sales.png" width="80%">
-
-### Item Performance Analysis
-
-<img src="./Images/Items.png" width="80%">
-
-### Rating Analysis
-
-<img src="./Images/rating (1).png" width="80%">
 
 ---
 
