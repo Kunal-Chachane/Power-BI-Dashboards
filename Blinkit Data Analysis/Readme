@@ -1,41 +1,40 @@
 # 📊 Blinkit Sales Analysis Dashboard
 
 <p align="center">
-  <img src="./Images/blinkit-dashboard.png" alt="Blinkit Sales Dashboard" width="100%">
+  <img src="./blinkit_sales_dashboard.png" alt="Blinkit Sales Dashboard" width="100%">
 </p>
 
 <p align="center">
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Analytics-blue?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-ETL-success?style=for-the-badge)
-![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Retail-orange?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/Data%20Analytics-Retail-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DAX-Analysis-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Power%20Query-ETL-success?style=for-the-badge">
 </p>
 
 ---
 
-## 🚀 Project Overview
+## 🎯 Project Overview
 
-Developed an interactive **Power BI Sales Analytics Dashboard** for Blinkit to monitor sales performance, customer preferences, outlet efficiency, and product trends.
+This project presents an interactive **Power BI Dashboard** built to analyze Blinkit's retail sales performance, customer purchasing behavior, outlet efficiency, and product trends.
 
-The dashboard enables stakeholders to identify revenue drivers, evaluate outlet performance, and make data-driven business decisions through dynamic visualizations and KPI tracking.
+The dashboard transforms raw transactional data into actionable insights, helping stakeholders monitor KPIs, identify revenue drivers, and support strategic business decisions.
 
 ---
 
-## 🎯 Business Objectives
+## 🚀 Business Objectives
 
-* Analyze overall sales performance across outlets
-* Identify top-performing outlet types and locations
-* Evaluate product category contribution to revenue
-* Understand customer buying behavior
-* Support strategic business expansion decisions
+* Analyze overall sales performance
+* Identify top-performing outlet types
+* Evaluate outlet size and location impact
+* Understand customer product preferences
+* Discover high-revenue product categories
+* Support data-driven expansion strategies
 
 ---
 
 ## 📈 Key Performance Indicators
 
-| Metric              | Value  |
+| KPI                 | Value  |
 | ------------------- | ------ |
 | 💰 Total Sales      | ₹1.20M |
 | 📦 Total Items Sold | 9K     |
@@ -44,82 +43,65 @@ The dashboard enables stakeholders to identify revenue drivers, evaluate outlet 
 
 ---
 
-## 📊 Dashboard Highlights
+## 📊 Dashboard Insights
 
-### Sales Performance Analysis
+### Revenue Analysis
 
-* Revenue tracking across all outlets
-* KPI monitoring and trend analysis
-* Outlet establishment performance evaluation
+* Generated over **₹1.2 Million** in total sales.
+* Sales performance remained stable across most outlet establishment years.
+
+### Outlet Performance
+
+* Tier 3 outlets generated the highest revenue contribution.
+* Medium-sized outlets outperformed small and high-sized outlets.
+* Supermarket Type 1 emerged as the highest revenue-generating outlet type.
 
 ### Product Analysis
 
-* Fat Content Analysis
-* Item Category Performance
-* Product Contribution Analysis
-
-### Outlet Analysis
-
-* Outlet Size Performance
-* Outlet Location Comparison
-* Outlet Type Analysis
+* Regular-fat products contributed significantly more revenue than low-fat products.
+* Household, Dairy, and Snack Foods were among the best-performing categories.
 
 ### Customer Insights
 
-* Product Preferences
-* Average Ratings
-* Purchase Behavior Trends
+* Average customer rating maintained a strong score of **4.0/5**.
+* Product visibility showed a direct relationship with sales performance.
 
 ---
 
-## 🔍 Key Business Insights
+## 📷 Dashboard Snapshots
 
-### Revenue Insights
+### Executive Dashboard
 
-* Generated over **₹1.2 Million** in total sales.
-* **Supermarket Type 1** contributed the highest revenue.
-* **Tier 3 outlets** outperformed Tier 1 and Tier 2 locations.
+<img src="./blinkit_sales_dashboard.png" width="100%">
 
-### Product Insights
+### Sales KPI Analysis
 
-* Regular-fat products generated the majority of sales.
-* Household, Dairy, and Snack Foods emerged as top-performing categories.
+<img src="./Images/Sales.png" width="80%">
 
-### Operational Insights
+### Average Sales Analysis
 
-* Medium-sized outlets delivered the highest sales contribution.
-* Customer ratings remained consistently high at **4.0/5**.
+<img src="./Images/Avg Sales.png" width="80%">
+
+### Item Performance Analysis
+
+<img src="./Images/Items.png" width="80%">
+
+### Rating Analysis
+
+<img src="./Images/rating (1).png" width="80%">
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Category            | Technology  |
-| ------------------- | ----------- |
-| BI Tool             | Power BI    |
-| Data Transformation | Power Query |
-| Data Modeling       | Star Schema |
-| Calculations        | DAX         |
-| Data Source         | Excel / CSV |
-
----
-
-## 📂 Project Structure
-
-```text
-Blinkit-Sales-Analysis/
-│
-├── Dashboard/
-│   └── Blinkit_Sales_Dashboard.pbix
-│
-├── Dataset/
-│   └── BlinkIT_Grocery_Data.csv
-│
-├── Images/
-│   └── blinkit-dashboard.png
-│
-└── README.md
-```
+| Category      | Technology             |
+| ------------- | ---------------------- |
+| BI Tool       | Power BI               |
+| Data Cleaning | Power Query            |
+| Data Modeling | Power BI Data Model    |
+| Calculations  | DAX                    |
+| Data Source   | Excel                  |
+| Visualization | Power BI Charts & KPIs |
 
 ---
 
@@ -151,38 +133,68 @@ Average Rating = AVERAGE(BlinkIT[Rating])
 
 ---
 
-## 💼 Skills Demonstrated
+## 💡 Skills Demonstrated
 
-* Data Cleaning
-* Data Transformation
+* Data Cleaning & Transformation
 * Data Modeling
 * DAX Calculations
-* Dashboard Development
-* KPI Design
+* KPI Development
+* Interactive Dashboard Design
+* Business Intelligence Reporting
+* Retail Sales Analytics
 * Data Visualization
-* Business Intelligence
-* Retail Analytics
 * Insight Generation
 
 ---
 
-## 📸 Dashboard Preview
+## 📂 Project Structure
 
-### Executive Dashboard
-
-<img src="./Images/blinkit-dashboard.png" width="100%">
+```text
+Blinkit Data Analysis/
+│
+├── Images/
+│   ├── Avg Sales.png
+│   ├── Items.png
+│   ├── Sales.png
+│   └── rating (1).png
+│
+├── BlinkIT Grocery Data.xlsx
+├── Blinkit dashboard.pbix
+├── Blinkit dashboard.pdf
+├── blinkit_sales_dashboard.png
+└── README.md
+```
 
 ---
 
 ## 📌 Business Impact
 
-This dashboard helps business stakeholders:
+This dashboard enables stakeholders to:
 
-* Monitor sales performance in real time
-* Identify high-performing outlets
-* Improve inventory planning
-* Optimize product strategy
-* Support expansion decisions with data-backed insights
+✔ Monitor sales performance efficiently
+
+✔ Identify profitable outlet formats
+
+✔ Understand customer purchasing behavior
+
+✔ Optimize inventory planning
+
+✔ Support business expansion decisions
+
+✔ Improve strategic decision-making through data-driven insights
 
 ---
 
+## 👨‍💻 Author
+
+### Kunal Chachane
+
+**Data Analyst | Power BI Developer**
+
+🔗 LinkedIn: https://www.linkedin.com/in/kunal-chachane
+
+🐙 GitHub: https://github.com/Kunal-Chachane
+
+---
+
+⭐ If you found this project helpful, consider starring the repository.
