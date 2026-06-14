@@ -1,11 +1,6 @@
 # 🍕 Pizza Sales Analysis Dashboard
 
 <p align="center">
-  <img src="./Pizza Sales Dashboard Page1.png" alt="Pizza Sales Dashboard" width="100%">
-  <img src="./Pizza Sales Dashboard Page1.png" alt="Pizza Sales Dashboard" width="100%">
-</p>
-
-<p align="center">
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge\&logo=postgresql\&logoColor=white)
@@ -18,47 +13,48 @@
 
 # 📌 Project Overview
 
-The **Pizza Sales Analysis Dashboard** is an end-to-end Business Intelligence project developed using **PostgreSQL, SQL, Power BI, Power Query, and DAX**.
+The Pizza Sales Analysis Dashboard is an end-to-end Business Intelligence solution developed using **PostgreSQL, SQL, Power BI, Power Query, and DAX**.
 
-This project analyzes pizza sales transactions to uncover revenue trends, customer ordering patterns, product performance, and operational insights. The dashboard enables stakeholders to monitor KPIs, identify top-selling products, and make data-driven business decisions.
+This project analyzes pizza sales transactions to uncover revenue trends, customer ordering behavior, product performance, and operational insights. The dashboard provides stakeholders with actionable insights for improving sales performance, inventory planning, and business decision-making.
 
 ---
 
 # 🎯 Business Objectives
 
 * Analyze overall sales performance and revenue trends.
-* Identify best-selling and low-performing pizzas.
-* Understand customer purchasing behavior.
-* Evaluate daily and monthly sales trends.
+* Identify top-performing and underperforming pizzas.
+* Understand customer ordering behavior.
+* Evaluate daily and monthly sales patterns.
 * Analyze pizza category and size preferences.
-* Generate actionable business insights.
-* Support inventory and marketing decisions.
+* Support business decisions with data-driven insights.
 
 ---
 
 # 🔄 Data Pipeline
 
-### 1. Data Collection
+### Database Layer
 
-* Imported raw pizza sales data into PostgreSQL.
-* Created structured tables for analysis.
+* Imported pizza sales data into PostgreSQL.
+* Structured data for analytical querying.
 
-### 2. SQL Analysis
+### SQL Analysis
 
-* Performed analytical queries using PostgreSQL.
-* Calculated KPIs and sales metrics.
-* Identified top and bottom-performing products.
+* Revenue Analysis
+* Sales Trend Analysis
+* Product Performance Analysis
+* Customer Ordering Analysis
+* KPI Calculation
 
-### 3. Data Transformation
+### Data Transformation
 
-* Connected PostgreSQL to Power BI.
-* Cleaned and transformed data using Power Query.
+* Connected PostgreSQL with Power BI.
+* Performed cleaning and transformation using Power Query.
 
-### 4. Dashboard Development
+### Dashboard Development
 
-* Built data model and relationships.
-* Created DAX measures and KPIs.
-* Designed interactive visualizations and reports.
+* Created data model.
+* Developed DAX measures.
+* Designed interactive dashboards.
 
 ---
 
@@ -66,13 +62,13 @@ This project analyzes pizza sales transactions to uncover revenue trends, custom
 
 ## Executive Dashboard
 
-![Executive Dashboard](./Pizza%20Sales%20Dashboard%20Page1.png)
+![Dashboard](./Pizza%20Sales%20Dashboard%20Page1.png)
 
 ---
 
 ## Product Performance Dashboard
 
-![Product Performance Dashboard](./Pizza%20Sales%20Dashboard%20page2.png)
+![Dashboard 2](./Pizza%20Sales%20Dashboard%20page2.png)
 
 ---
 
@@ -86,84 +82,74 @@ This project analyzes pizza sales transactions to uncover revenue trends, custom
 | 💵 Average Order Value     | ₹3,180      |
 | 📈 Average Pizza Per Order | 2.32        |
 
-> Revenue converted approximately from dashboard values into Indian Rupees (₹).
-
 ---
 
 # 📈 Dashboard Features
 
 ## Sales Performance Analysis
 
-Tracks overall business performance through:
+Tracks business performance using:
 
 * Total Revenue
 * Total Orders
 * Total Pizza Sold
 * Average Order Value
-* Average Pizzas per Order
+* Average Pizza Per Order
 
-### Key Insight
+### Insight
 
-The business generated approximately **₹6.79 Crore** from over **21,000 customer orders**.
-
----
-
-## Daily Sales Analysis
-
-Analyzes order volume by weekday.
-
-### Key Findings
-
-* Friday recorded the highest order volume.
-* Weekend sales significantly outperformed weekdays.
-* Customer demand peaks during weekends.
+Generated approximately **₹6.79 Crore** in revenue from more than **21,000 customer orders**.
 
 ---
 
-## Monthly Trend Analysis
-
-Tracks sales trends across all months.
+## Daily Order Analysis
 
 ### Key Findings
 
-* July generated the highest number of orders.
-* January and May also showed strong sales performance.
-* Seasonal fluctuations are visible throughout the year.
+* Friday recorded the highest sales volume.
+* Weekend demand significantly outperformed weekdays.
+* Peak ordering activity occurred during weekends.
+
+---
+
+## Monthly Sales Analysis
+
+### Key Findings
+
+* July generated the highest order volume.
+* January and May also recorded strong sales performance.
+* Seasonal fluctuations can be observed throughout the year.
 
 ---
 
 ## Pizza Category Analysis
 
-### Revenue Contribution
+| Category | Revenue Contribution |
+| -------- | -------------------- |
+| Classic  | 26.91%               |
+| Supreme  | 25.46%               |
+| Chicken  | 23.96%               |
+| Veggie   | 23.68%               |
 
-| Category | Revenue Share |
-| -------- | ------------- |
-| Classic  | 26.91%        |
-| Supreme  | 25.46%        |
-| Chicken  | 23.96%        |
-| Veggie   | 23.68%        |
+### Insight
 
-### Key Insight
-
-The **Classic Pizza Category** generated the highest revenue contribution.
+Classic pizzas contributed the highest revenue share.
 
 ---
 
 ## Pizza Size Analysis
 
-### Revenue Contribution
+| Size     | Revenue Contribution |
+| -------- | -------------------- |
+| Large    | 45.89%               |
+| Medium   | 30.49%               |
+| Regular  | 21.77%               |
+| X-Large  | 1.72%                |
+| XX-Large | 0.12%                |
 
-| Size     | Revenue Share |
-| -------- | ------------- |
-| Large    | 45.89%        |
-| Medium   | 30.49%        |
-| Regular  | 21.77%        |
-| X-Large  | 1.72%         |
-| XX-Large | 0.12%         |
+### Insight
 
-### Key Insight
-
-Large pizzas accounted for nearly **46% of total revenue**, making them the most preferred size.
+Large pizzas generated nearly half of the total revenue.
 
 ---
 
@@ -189,7 +175,7 @@ Large pizzas accounted for nearly **46% of total revenue**, making them the most
 
 ---
 
-## By Orders
+## By Total Orders
 
 | Pizza                | Orders |
 | -------------------- | ------ |
@@ -211,16 +197,6 @@ Large pizzas accounted for nearly **46% of total revenue**, making them the most
 
 ---
 
-## By Quantity Sold
-
-| Pizza               | Quantity |
-| ------------------- | -------- |
-| Brie Carre Pizza    | 490      |
-| Mediterranean Pizza | 934      |
-| Calabrese Pizza     | 937      |
-
----
-
 ## By Orders
 
 | Pizza               | Orders |
@@ -235,19 +211,19 @@ Large pizzas accounted for nearly **46% of total revenue**, making them the most
 
 ## 💰 Total Revenue
 
-![Total Revenue](./images/Total%20Revenue.png)
+![Revenue](./images/Total%20Revenue.png)
 
 ---
 
 ## 📦 Total Orders
 
-![Total Orders](./images/Total%20Orders.png)
+![Orders](./images/Total%20Orders.png)
 
 ---
 
-## 🍕 Total Pizza Sold
+## 🍕 Total Pizzas Sold
 
-![Total Pizza Sold](./images/Total_pizza_sold.png)
+![Pizzas Sold](./images/Total_pizza_sold.png)
 
 ---
 
@@ -259,7 +235,7 @@ Large pizzas accounted for nearly **46% of total revenue**, making them the most
 
 # 🗄️ PostgreSQL Analysis
 
-The project utilized PostgreSQL for data exploration and business analysis.
+The project utilized PostgreSQL to perform business analysis and KPI calculations.
 
 ### Total Revenue
 
@@ -343,23 +319,23 @@ DIVIDE([Total Pizza Sold],[Total Orders])
 
 # 🔍 Key Business Insights
 
-### Customer Insights
+### Customer Behavior
 
 * Customers purchase an average of **2.32 pizzas per order**.
-* Weekend demand is significantly higher than weekdays.
-* Large-sized pizzas dominate customer preferences.
+* Weekend demand significantly exceeds weekday demand.
+* Large-sized pizzas are the most preferred option.
 
 ### Revenue Insights
 
 * Total revenue exceeded **₹6.79 Crore**.
-* Classic pizzas generated the highest category revenue.
-* Top-selling pizzas contributed significantly to overall sales.
+* Classic category generated the highest revenue contribution.
+* Top-selling pizzas account for a substantial share of overall sales.
 
 ### Operational Insights
 
-* Inventory should prioritize top-selling pizzas.
-* Weekend staffing should be increased.
-* Underperforming pizzas may require menu optimization.
+* Inventory should prioritize high-demand pizza categories.
+* Weekend staffing should be increased to meet customer demand.
+* Underperforming products require promotional strategies or menu optimization.
 
 ---
 
@@ -384,8 +360,8 @@ DIVIDE([Total Pizza Sold],[Total Orders])
 * PostgreSQL
 * SQL Query Writing
 * Aggregations
-* Business Analysis Queries
 * Data Extraction
+* Business Analysis
 
 ### Data Analytics
 
@@ -397,10 +373,10 @@ DIVIDE([Total Pizza Sold],[Total Orders])
 ### Power BI
 
 * Data Modeling
-* DAX Calculations
 * Dashboard Development
+* DAX Calculations
+* Power Query
 * Interactive Reporting
-* Data Visualization
 
 ### Business Intelligence
 
@@ -417,10 +393,10 @@ DIVIDE([Total Pizza Sold],[Total Orders])
 Pizza Sales/
 │
 ├── images/
-│   ├── Total Orders.png
 │   ├── Total Revenue.png
-│   ├── Total_orders_every_month.png
-│   └── Total_pizza_sold.png
+│   ├── Total Orders.png
+│   ├── Total_pizza_sold.png
+│   └── Total_orders_every_month.png
 │
 ├── Pizza Sales Dashboard Page1.png
 ├── Pizza Sales Dashboard page2.png
@@ -437,23 +413,23 @@ Pizza Sales/
 
 This dashboard enables stakeholders to:
 
-✅ Monitor sales performance in real-time
+✅ Monitor sales performance in real time
 
 ✅ Identify top-performing products
 
-✅ Optimize inventory allocation
+✅ Optimize inventory planning
 
 ✅ Improve menu strategy
 
-✅ Understand customer purchasing behavior
+✅ Understand customer ordering behavior
 
-✅ Support data-driven business decisions
+✅ Support data-driven decision-making
 
 ---
 
 # 👨‍💻 Author
 
-### Kunal Chachane
+## Kunal Chachane
 
 **Data Analyst | Power BI Developer**
 
@@ -463,4 +439,4 @@ This dashboard enables stakeholders to:
 
 ---
 
-⭐ If you found this project valuable, consider giving it a star!
+⭐ If you found this project useful, consider giving it a sta
