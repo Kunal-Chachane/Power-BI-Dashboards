@@ -3,15 +3,10 @@
 
 # 📊 Dashboard Preview
 
-## Executive Dashboard
 
-![Dashboard Page 1](./images/pizza_sales_dashboard_page1.png)
+![Dashboard Page 1](https://raw.githubusercontent.com/Kunal-Chachane/Power-BI-Dashboards/main/Pizza%20Sales/images/pizza_sales_dashboard_page1.png)
 
----
-
-## Product Performance Dashboard
-
-![Dashboard Page 2](./images/pizza_sales_dashboard_page2.png)
+![Dashboard Page 2](https://raw.githubusercontent.com/Kunal-Chachane/Power-BI-Dashboards/main/Pizza%20Sales/images/pizza_sales_dashboard_page2.png)
 
 ---
 
