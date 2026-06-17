@@ -81,7 +81,3 @@ Data-driven breakdown of employee satisfaction and departmental efficiency.
 
 <br />
 
----
-<div align="center">
-  <sub>Project developed for HR Strategic Planning. Data handled with strict confidentiality.</sub>
-</div>
