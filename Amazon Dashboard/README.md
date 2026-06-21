@@ -54,10 +54,4 @@ This dashboard helps organizations:
 - Analyze customer payment preferences
 - Support strategic and operational decision-making
 
-## Dashboard Period
 
-**January 2020 – December 2024**
-
----
-### Author
-**Your Name**
