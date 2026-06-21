@@ -2,7 +2,7 @@
 
 ## Dashboard Preview
 
-![Amazon Sales Dashboard](Amazon_Sales_Dashboard.png)
+![Amazon Sales Dashboard](Dashboard_Image.png)
 
 ---
 
